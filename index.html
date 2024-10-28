@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barangay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="navbar">
+            <img src="logo.png" alt="Barangay Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#" class="contact-button" onclick="openNewsletter()">Get In Touch</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero-content">
+            <h3>Discover The District</h3>
+            <h1>Barangay Masiit</h1>
+            <p>The most exciting district of Calauan, Laguna, get your opportunity to move forward together.</p>
+            <a href="#more-info" class="hero-button">Learn More →</a>
+        </div>
+    </header>
+
+
+<div id="newsletterModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeNewsletter()">&times;</span>
+      <h2>Subscribe to Our Newsletter</h2>
+      <p>Sign up for our newsletter and Stay updated with the latest news and events from Barangay Masiit. Subscribe to our newsletter to get updates directly to your inbox.</p>
+      <form class="popup-newsletter-form">
+        <input type="email" placeholder="Your email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+    
+
+    <section class="newsletter">
+    <div class="newsletter-content">
+        <h2>Subscribe To Our Newsletter</h2>
+        <p>Stay updated with the latest news and events from Barangay Masiit. Subscribe to our newsletter to get updates directly to your inbox.</p>
+        <form class="newsletter-form">
+            <input type="text" placeholder="Enter your Name" required>
+            <input type="email" placeholder="Enter your Email" required>
+            <button type="submit">SUBMIT</button>
+        </form>
+    </div>
+</section>
+
+
+    <main>
+        <section id="home">
+        </section>
+        <section id="about">
+        </section>
+        <section id="services">
+        </section>
+        <section id="news">
+        </section>
+        <section id="faq">
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
